@@ -1,4 +1,4 @@
-# SmartProxyPuppetEnc
+# Smart Proxy Puppet ENC Plugin
 
 This plugin adds a Puppet ENC functionality to Smart Proxy.
 
