@@ -1,10 +1,10 @@
 require 'test_helper'
-require 'smart_proxy_dns_plugin_template/dns_plugin_template_main'
+require 'smart_proxy_puppet_enc/puppet_enc_main'
 
 
-class DnsPluginTemplateRecordTest < Test::Unit::TestCase
+class PuppetEncRecordTest < Test::Unit::TestCase
   def setup
-    @provider = Proxy::Dns::PluginTemplate::Record.new('required_value', 'a_value', '/required/path', '/some/path', 999)
+    @provider = Proxy::Dns::PuppetEnc::Record.new('required_value', 'a_value', '/required/path', '/some/path', 999)
   end
 
   # These tests are very verbose and possibly a lot of duplication, but it is a

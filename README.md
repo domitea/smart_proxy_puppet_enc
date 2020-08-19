@@ -1,34 +1,21 @@
-# Smart Proxy DNS plugin template
+# SmartProxyPuppetEnc
 
-This repo is an example plugin which you can use as a starting point for developing
-your own DNS provider plugin for the Smart Proxy.
+This plugin adds a Puppet ENC functionality to Smart Proxy.
 
-## Getting Started
+## Installation
 
-First, clone this repo to a directory named for your new plugin
+See [How_to_Install_a_Smart-Proxy_Plugin](http://projects.theforeman.org/projects/foreman/wiki/How_to_Install_a_Smart-Proxy_Plugin)
+for how to install Smart Proxy plugins
 
-    git clone https://github.com/theforeman/smart_proxy_dns_plugin_template smart_proxy_dns_my_plugin
+This plugin is compatible with Smart Proxy 1.10 or higher.
 
-Now use the provided script to rewrite all the files in the plugin
+## Contributing
 
-    cd smart_proxy_dns_my_plugin
-    ./rename.rb smart_proxy_dns_my_plugin
-
-The script will output the required Bundler line to add the plugin to the Smart Proxy.
-Apply this change, and restart the Smart Proxy to load it.
-
-Once working, update the README.md with appropriate information, and publish your plugin!
-
-## Getting help
-
-The Foreman developers IRC channel and mailing list are the best places to get help:
-
-* Freenode: #theforeman-dev
-* Google Groups: foreman-dev@googlegroups.com
+Fork and send a Pull Request. Thanks!
 
 ## Copyright
 
-Copyright (c) 2015 Red Hat
+Copyright (c) *2020* *Dominik Matoulek*
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -42,3 +29,4 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
